@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA211C1D20CFBB8C008A151C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA211C1C20CFBB8C008A151C /* AppDelegate.swift */; };
+		DA211C1F20CFBB8C008A151C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA211C1E20CFBB8C008A151C /* ViewController.swift */; };
+		DA211C2220CFBB8C008A151C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA211C2020CFBB8C008A151C /* Main.storyboard */; };
+		DA211C2520CFBB8C008A151C /* Konds_FreeDomeLineDrawing_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA211C2320CFBB8C008A151C /* Konds_FreeDomeLineDrawing_App.xcdatamodeld */; };
+		DA211C2720CFBB8E008A151C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA211C2620CFBB8E008A151C /* Assets.xcassets */; };
+		DA211C2A20CFBB8E008A151C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA211C2820CFBB8E008A151C /* LaunchScreen.storyboard */; };
+		DA211C3520CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA211C3420CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppTests.swift */; };
+		DA211C4020CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA211C3F20CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA211C3120CFBB8E008A151C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA211C1120CFBB8C008A151C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA211C1820CFBB8C008A151C;
+			remoteInfo = "Konds-FreeDomeLineDrawing-App";
+		};
+		DA211C3C20CFBB8F008A151C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA211C1120CFBB8C008A151C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA211C1820CFBB8C008A151C;
+			remoteInfo = "Konds-FreeDomeLineDrawing-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA211C1920CFBB8C008A151C /* Konds-FreeDomeLineDrawing-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konds-FreeDomeLineDrawing-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA211C1C20CFBB8C008A151C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA211C1E20CFBB8C008A151C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA211C2120CFBB8C008A151C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA211C2420CFBB8C008A151C /* Konds_FreeDomeLineDrawing_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Konds_FreeDomeLineDrawing_App.xcdatamodel; sourceTree = "<group>"; };
+		DA211C2620CFBB8E008A151C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA211C2920CFBB8E008A151C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA211C2B20CFBB8E008A151C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA211C3020CFBB8E008A151C /* Konds-FreeDomeLineDrawing-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Konds-FreeDomeLineDrawing-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA211C3420CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konds_FreeDomeLineDrawing_AppTests.swift; sourceTree = "<group>"; };
+		DA211C3620CFBB8F008A151C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA211C3B20CFBB8F008A151C /* Konds-FreeDomeLineDrawing-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Konds-FreeDomeLineDrawing-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA211C3F20CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konds_FreeDomeLineDrawing_AppUITests.swift; sourceTree = "<group>"; };
+		DA211C4120CFBB8F008A151C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA211C1620CFBB8C008A151C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA211C2D20CFBB8E008A151C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA211C3820CFBB8F008A151C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA211C1020CFBB8C008A151C = {
+			isa = PBXGroup;
+			children = (
+				DA211C1B20CFBB8C008A151C /* Konds-FreeDomeLineDrawing-App */,
+				DA211C3320CFBB8F008A151C /* Konds-FreeDomeLineDrawing-AppTests */,
+				DA211C3E20CFBB8F008A151C /* Konds-FreeDomeLineDrawing-AppUITests */,
+				DA211C1A20CFBB8C008A151C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA211C1A20CFBB8C008A151C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA211C1920CFBB8C008A151C /* Konds-FreeDomeLineDrawing-App.app */,
+				DA211C3020CFBB8E008A151C /* Konds-FreeDomeLineDrawing-AppTests.xctest */,
+				DA211C3B20CFBB8F008A151C /* Konds-FreeDomeLineDrawing-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA211C1B20CFBB8C008A151C /* Konds-FreeDomeLineDrawing-App */ = {
+			isa = PBXGroup;
+			children = (
+				DA211C1C20CFBB8C008A151C /* AppDelegate.swift */,
+				DA211C1E20CFBB8C008A151C /* ViewController.swift */,
+				DA211C2020CFBB8C008A151C /* Main.storyboard */,
+				DA211C2620CFBB8E008A151C /* Assets.xcassets */,
+				DA211C2820CFBB8E008A151C /* LaunchScreen.storyboard */,
+				DA211C2B20CFBB8E008A151C /* Info.plist */,
+				DA211C2320CFBB8C008A151C /* Konds_FreeDomeLineDrawing_App.xcdatamodeld */,
+			);
+			path = "Konds-FreeDomeLineDrawing-App";
+			sourceTree = "<group>";
+		};
+		DA211C3320CFBB8F008A151C /* Konds-FreeDomeLineDrawing-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA211C3420CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppTests.swift */,
+				DA211C3620CFBB8F008A151C /* Info.plist */,
+			);
+			path = "Konds-FreeDomeLineDrawing-AppTests";
+			sourceTree = "<group>";
+		};
+		DA211C3E20CFBB8F008A151C /* Konds-FreeDomeLineDrawing-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA211C3F20CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppUITests.swift */,
+				DA211C4120CFBB8F008A151C /* Info.plist */,
+			);
+			path = "Konds-FreeDomeLineDrawing-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA211C1820CFBB8C008A151C /* Konds-FreeDomeLineDrawing-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA211C4420CFBB8F008A151C /* Build configuration list for PBXNativeTarget "Konds-FreeDomeLineDrawing-App" */;
+			buildPhases = (
+				DA211C1520CFBB8C008A151C /* Sources */,
+				DA211C1620CFBB8C008A151C /* Frameworks */,
+				DA211C1720CFBB8C008A151C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Konds-FreeDomeLineDrawing-App";
+			productName = "Konds-FreeDomeLineDrawing-App";
+			productReference = DA211C1920CFBB8C008A151C /* Konds-FreeDomeLineDrawing-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA211C2F20CFBB8E008A151C /* Konds-FreeDomeLineDrawing-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA211C4720CFBB8F008A151C /* Build configuration list for PBXNativeTarget "Konds-FreeDomeLineDrawing-AppTests" */;
+			buildPhases = (
+				DA211C2C20CFBB8E008A151C /* Sources */,
+				DA211C2D20CFBB8E008A151C /* Frameworks */,
+				DA211C2E20CFBB8E008A151C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA211C3220CFBB8E008A151C /* PBXTargetDependency */,
+			);
+			name = "Konds-FreeDomeLineDrawing-AppTests";
+			productName = "Konds-FreeDomeLineDrawing-AppTests";
+			productReference = DA211C3020CFBB8E008A151C /* Konds-FreeDomeLineDrawing-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA211C3A20CFBB8F008A151C /* Konds-FreeDomeLineDrawing-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA211C4A20CFBB8F008A151C /* Build configuration list for PBXNativeTarget "Konds-FreeDomeLineDrawing-AppUITests" */;
+			buildPhases = (
+				DA211C3720CFBB8F008A151C /* Sources */,
+				DA211C3820CFBB8F008A151C /* Frameworks */,
+				DA211C3920CFBB8F008A151C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA211C3D20CFBB8F008A151C /* PBXTargetDependency */,
+			);
+			name = "Konds-FreeDomeLineDrawing-AppUITests";
+			productName = "Konds-FreeDomeLineDrawing-AppUITests";
+			productReference = DA211C3B20CFBB8F008A151C /* Konds-FreeDomeLineDrawing-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA211C1120CFBB8C008A151C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Hitendra Bhoir";
+				TargetAttributes = {
+					DA211C1820CFBB8C008A151C = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DA211C2F20CFBB8E008A151C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DA211C1820CFBB8C008A151C;
+					};
+					DA211C3A20CFBB8F008A151C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DA211C1820CFBB8C008A151C;
+					};
+				};
+			};
+			buildConfigurationList = DA211C1420CFBB8C008A151C /* Build configuration list for PBXProject "Konds-FreeDomeLineDrawing-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA211C1020CFBB8C008A151C;
+			productRefGroup = DA211C1A20CFBB8C008A151C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA211C1820CFBB8C008A151C /* Konds-FreeDomeLineDrawing-App */,
+				DA211C2F20CFBB8E008A151C /* Konds-FreeDomeLineDrawing-AppTests */,
+				DA211C3A20CFBB8F008A151C /* Konds-FreeDomeLineDrawing-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA211C1720CFBB8C008A151C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA211C2A20CFBB8E008A151C /* LaunchScreen.storyboard in Resources */,
+				DA211C2720CFBB8E008A151C /* Assets.xcassets in Resources */,
+				DA211C2220CFBB8C008A151C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA211C2E20CFBB8E008A151C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA211C3920CFBB8F008A151C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA211C1520CFBB8C008A151C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA211C2520CFBB8C008A151C /* Konds_FreeDomeLineDrawing_App.xcdatamodeld in Sources */,
+				DA211C1F20CFBB8C008A151C /* ViewController.swift in Sources */,
+				DA211C1D20CFBB8C008A151C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA211C2C20CFBB8E008A151C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA211C3520CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA211C3720CFBB8F008A151C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA211C4020CFBB8F008A151C /* Konds_FreeDomeLineDrawing_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA211C3220CFBB8E008A151C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA211C1820CFBB8C008A151C /* Konds-FreeDomeLineDrawing-App */;
+			targetProxy = DA211C3120CFBB8E008A151C /* PBXContainerItemProxy */;
+		};
+		DA211C3D20CFBB8F008A151C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA211C1820CFBB8C008A151C /* Konds-FreeDomeLineDrawing-App */;
+			targetProxy = DA211C3C20CFBB8F008A151C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA211C2020CFBB8C008A151C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA211C2120CFBB8C008A151C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA211C2820CFBB8E008A151C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA211C2920CFBB8E008A151C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA211C4220CFBB8F008A151C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA211C4320CFBB8F008A151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA211C4520CFBB8F008A151C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konds-FreeDomeLineDrawing-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "For.Konds-FreeDomeLineDrawing-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA211C4620CFBB8F008A151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konds-FreeDomeLineDrawing-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "For.Konds-FreeDomeLineDrawing-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA211C4820CFBB8F008A151C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konds-FreeDomeLineDrawing-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "For.Konds-FreeDomeLineDrawing-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Konds-FreeDomeLineDrawing-App.app/Konds-FreeDomeLineDrawing-App";
+			};
+			name = Debug;
+		};
+		DA211C4920CFBB8F008A151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konds-FreeDomeLineDrawing-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "For.Konds-FreeDomeLineDrawing-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Konds-FreeDomeLineDrawing-App.app/Konds-FreeDomeLineDrawing-App";
+			};
+			name = Release;
+		};
+		DA211C4B20CFBB8F008A151C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konds-FreeDomeLineDrawing-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "For.Konds-FreeDomeLineDrawing-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Konds-FreeDomeLineDrawing-App";
+			};
+			name = Debug;
+		};
+		DA211C4C20CFBB8F008A151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konds-FreeDomeLineDrawing-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "For.Konds-FreeDomeLineDrawing-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Konds-FreeDomeLineDrawing-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA211C1420CFBB8C008A151C /* Build configuration list for PBXProject "Konds-FreeDomeLineDrawing-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA211C4220CFBB8F008A151C /* Debug */,
+				DA211C4320CFBB8F008A151C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA211C4420CFBB8F008A151C /* Build configuration list for PBXNativeTarget "Konds-FreeDomeLineDrawing-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA211C4520CFBB8F008A151C /* Debug */,
+				DA211C4620CFBB8F008A151C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA211C4720CFBB8F008A151C /* Build configuration list for PBXNativeTarget "Konds-FreeDomeLineDrawing-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA211C4820CFBB8F008A151C /* Debug */,
+				DA211C4920CFBB8F008A151C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA211C4A20CFBB8F008A151C /* Build configuration list for PBXNativeTarget "Konds-FreeDomeLineDrawing-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA211C4B20CFBB8F008A151C /* Debug */,
+				DA211C4C20CFBB8F008A151C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA211C2320CFBB8C008A151C /* Konds_FreeDomeLineDrawing_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA211C2420CFBB8C008A151C /* Konds_FreeDomeLineDrawing_App.xcdatamodel */,
+			);
+			currentVersion = DA211C2420CFBB8C008A151C /* Konds_FreeDomeLineDrawing_App.xcdatamodel */;
+			path = Konds_FreeDomeLineDrawing_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA211C1120CFBB8C008A151C /* Project object */;
+}
